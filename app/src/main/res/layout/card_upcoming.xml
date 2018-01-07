@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/cv_nearby"
+        card_view:cardElevation="3dp"
+        android:foreground="?android:attr/selectableItemBackground">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/doc_photo"
+                android:background="@drawable/img4"
+                android:layout_alignParentTop="true" />
+
+
+            <com.example.archit.meracutretail.changetypeface
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="2dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                customfont:typeface="Roboto-Bold.ttf"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="5dp"
+                android:text="Name Of The Place"
+                android:layout_below="@+id/doc_photo"
+                android:textSize="14sp" />
+
+
+            <com.example.archit.meracutretail.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/serv_availed"
+                android:textSize="12dp"
+                android:paddingLeft="2dp"
+                customfont:typeface="Roboto-Regular.ttf"
+                android:layout_marginLeft="5dp"
+                android:text="Services Availed : "
+                android:layout_below="@+id/name"/>
+
+            <com.example.archit.meracutretail.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:paddingTop="1dp"
+                android:id="@+id/serv_availed_text"
+                customfont:typeface="Roboto-Light.ttf"
+                android:text="Hair Cut, Beard Shave "
+                android:layout_below="@+id/name"
+                android:layout_toRightOf="@+id/serv_availed"/>
+
+            <com.example.archit.meracutretail.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/serv_bdate"
+                android:textSize="12dp"
+                android:paddingLeft="2dp"
+                customfont:typeface="Roboto-Regular.ttf"
+                android:layout_marginLeft="5dp"
+                android:text="Booking Date : "
+                android:layout_below="@+id/serv_availed_text"/>
+
+            <com.example.archit.meracutretail.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:paddingTop="1dp"
+                android:id="@+id/serv_bdate_text"
+                customfont:typeface="Roboto-Light.ttf"
+                android:text="1900-01-26"
+                android:layout_below="@+id/serv_availed_text"
+                android:layout_toRightOf="@+id/serv_bdate"/>
+
+            <com.example.archit.meracutretail.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/serv_btime"
+                android:textSize="12dp"
+                android:paddingLeft="2dp"
+                customfont:typeface="Roboto-Regular.ttf"
+                android:layout_marginLeft="5dp"
+                android:text="Booking Time : "
+                android:layout_below="@+id/serv_bdate"/>
+
+            <com.example.archit.meracutretail.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:paddingTop="1dp"
+                android:id="@+id/serv_btime_text"
+                customfont:typeface="Roboto-Light.ttf"
+                android:text="12:00 P.M"
+                android:layout_below="@+id/serv_bdate"
+                android:layout_toRightOf="@+id/serv_btime"/>
+
+            <com.example.archit.meracutretail.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/serv_price"
+                android:textSize="12dp"
+                android:paddingLeft="2dp"
+                customfont:typeface="Roboto-Regular.ttf"
+                android:layout_marginLeft="5dp"
+                android:text="Price : "
+                android:layout_below="@+id/serv_btime"/>
+
+            <com.example.archit.meracutretail.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:paddingTop="1dp"
+                android:id="@+id/serv_price_text"
+                customfont:typeface="Roboto-Light.ttf"
+                android:text="Rs. 1200/-"
+                android:layout_below="@+id/serv_btime"
+                android:layout_toRightOf="@+id/serv_price"/>
+
+            <com.example.archit.meracutretail.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/serv_number"
+                android:textSize="12dp"
+                android:paddingLeft="2dp"
+                customfont:typeface="Roboto-Regular.ttf"
+                android:layout_marginLeft="5dp"
+                android:text="Phone no: "
+                android:layout_below="@+id/serv_price"/>
+
+            <com.example.archit.meracutretail.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:id="@+id/serv_number_text"
+                customfont:typeface="Roboto-Light.ttf"
+                android:layout_marginTop="1dp"
+                android:text="96500"
+                android:layout_below="@+id/serv_price_text"
+                android:layout_toRightOf="@+id/serv_number"/>
+
+            <com.example.archit.meracutretail.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/serv_bookid"
+                android:textSize="12dp"
+                android:paddingLeft="2dp"
+                customfont:typeface="Roboto-Regular.ttf"
+                android:layout_marginLeft="5dp"
+                android:text="Booking ID : "
+                android:paddingBottom="5dp"
+                android:layout_below="@+id/serv_number"/>
+
+            <com.example.archit.meracutretail.changetypeface
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:id="@+id/serv_bookid_text"
+                customfont:typeface="Roboto-Light.ttf"
+                android:layout_marginTop="1dp"
+                android:text=" A01B4"
+                android:layout_below="@+id/serv_number_text"
+                android:layout_toRightOf="@+id/serv_bookid"/>
+
+            <View
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/serv_bookid"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e6e6e6"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_below="@+id/serv_bookid"
+                android:layout_height="50dp">
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="1dp"/>
+
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="0.15"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/tick"
+                android:layout_height="30dp"
+                android:id="@+id/yes"
+                android:text="Yes"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="1dp"/>
+                <View
+                    android:layout_width="1dp"
+                    android:background="#e6e6e6"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="1dp"/>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="0.15"
+                android:background="@drawable/cross"
+                android:layout_gravity="center_vertical"
+                android:layout_height="30dp"
+                android:id="@+id/no"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="1dp"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

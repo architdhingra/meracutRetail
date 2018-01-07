@@ -1,0 +1,61 @@
+{
+  "project_info": {
+    "project_number": "698301407389",
+    "project_id": "meracut-retail"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698301407389:android:5e24133a4513dad7",
+        "android_client_info": {
+          "package_name": "com.example.archit.meracutretail"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP16mdNJG3W_k4Pv4dSkw9ZXUeLXM9KoM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698301407389:android:3c8e3a9ecdef6b0f",
+        "android_client_info": {
+          "package_name": "com.archit.meracutretail"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBP16mdNJG3W_k4Pv4dSkw9ZXUeLXM9KoM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
